@@ -25,6 +25,6 @@ Más info en [elretomasdificil.com](https://elretomasdificil.com/).
 
 El problema se basa en el [método de cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar). La solución es ejecutar el script de la semana 1 pasándole el mensaje y la clave de cifrado.
 
-``bash
+```bash
 python week_1.py --mensaje "Urphr hvshud hq Urpd" --clave 3
 ```
