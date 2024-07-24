@@ -28,3 +28,22 @@ El problema se basa en el [método de cifrado César](https://es.wikipedia.org/w
 ```bash
 python week_1.py --mensaje "Urphr hvshud hq Urpd" --clave 3
 ```
+
+## Semana 2: LOS ESTIBADORES
+
+> Un puerto de piezas lleno
+> tantos lados dicta el peso
+> y el color su valor sin receso.
+> En el barco cien kilos caben
+> mas cuanto mas valor más valen
+>
+> ¿Cómo llenamos el barco
+> para hacernos millonarios?
+
+![img.png](img/week_2.png)
+
+He creado un CSV con dos columnas, la primera el número de lados de cada forma y la segunda con el valor asociado al color de cada una de las mismas. Este fichero CSV, junto con el límite de carga del barco, se le pasan al script de Python creado para el reto de esta semana y el resultado se muestra por pantalla.
+
+```bash
+python week_2.py --csv week_2.csv --almacenamiento 100                                                                                                                                                                                                                                                         ─╯
+```
